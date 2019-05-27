@@ -1,0 +1,2 @@
+> npm config set proxy http://<username>:<password>@hostname:port
+> npm config set https-proxy http://<username>:<password>@hostname:port
