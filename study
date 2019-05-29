@@ -10,3 +10,8 @@
 
 Here it binds the hero.name property to the HTML textbox so that data can flow in both directions: 
 from the hero.name property to the textbox, and from the textbox back to the hero.name.
+
+
+路由参数总会是字符串。 JavaScript 的 (+) 操作符会把字符串转换成数字，英雄的 id 就是数字类型。
+
+Route parameters are always strings. The JavaScript (+) operator converts the string to a number, which is what a hero id should be.
